@@ -1,6 +1,6 @@
-# integration-adobe-aem
+# Tealium Adobe Experience Manager Plugin
 
-Tealium Adobe Experience Manager Plugin
+This file is the README.md for the Tealium Integration with Adobe Experience Manager.
 
 ## Installation and Documentation
 
@@ -11,7 +11,7 @@ https://github.com/Tealium/integration-adobe-aem/blob/master/documentation/teali
 
 ## Examples
 
-View example integration in the /tealium-examples directory
+View an example integration in the /tealium-examples directory.
 
 https://github.com/Tealium/integration-adobe-aem/tree/master/tealium-examples
 
