@@ -1,0 +1,44 @@
+.tealium-global-configuration {
+    margin: 20px;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.tealium-global-configuration .configuration-header {
+    color: #006699;
+    font-size: 18px;
+}
+
+.tealium-global-configuration .configuration-entity {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.tealium-global-configuration .configuration-entity .entity-value {
+    font-weight: bold;
+}
+
+.tealium-global-configuration .configuration-entity ul {
+    margin: 0;
+    padding-left: 115px;
+    list-style: circle;
+}
+
+.tealium-global-configuration .logo {
+    margin-bottom: 50px;
+}
+
+.tealium-global-configuration .left {
+    float: left;
+    height: 100%;
+    margin: 50px 50px 0px 50px;
+}
+
+.tealium-global-configuration .right {
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+.tealium-global-configuration .error {
+    color: red;
+}

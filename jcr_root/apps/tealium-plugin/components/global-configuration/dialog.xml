@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="{Long}600"
+    title="Tealium Global Configuration"
+    width="{Long}1000"
+    xtype="dialog">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <carousel
+            jcr:primaryType="cq:Widget"
+            title="Main"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <enable
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Enable"
+                    name="./enabled"
+                    type="checkbox"
+                    xtype="selection"/>
+                <account
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Account"
+                    name="./account"
+                    xtype="textfield"/>
+                <profile
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Profile"
+                    name="./profile"
+                    xtype="textfield"/>
+                <environment
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Environment"
+                    name="./environment"
+                    xtype="textfield"/>
+                <enable-utag-sync-js
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Enable utag.sync.js"
+                    name="./enableUtagSyncJs"
+                    type="checkbox"
+                    xtype="selection"/>
+                <enable-custom-udo
+                    jcr:primaryType="cq:Widget"
+                    fieldLabel="Enable Custom UDO"
+                    name="./enableCustomUDO"
+                    type="checkbox"
+                    xtype="selection"/>
+                <udo
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Click the '+' to add a new dynamic UDO"
+                    fieldLabel="Global UDO variables"
+                    header="{Boolean}false"
+                    name="./udo"
+                    orderable="{Boolean}false"
+                    title="UDO"
+                    xtype="multifield">
+                    <fieldConfig
+                        jcr:primaryType="cq:Widget"
+                        border="true"
+                        layout="form"
+                        padding="10px"
+                        width="1000"
+                        xtype="tealiummultipanel">
+                        <items jcr:primaryType="cq:WidgetCollection">
+                            <udoName
+                                jcr:primaryType="cq:Widget"
+                                dName="udoName"
+                                fieldLabel="UDO Name"
+                                width="300"
+                                xtype="textfield"/>
+                            <udoValue
+                                jcr:primaryType="cq:Widget"
+                                dName="udoValue"
+                                fieldLabel="UDO Value"
+                                width="300"
+                                xtype="textfield"/>
+                            <isArray
+                                jcr:primaryType="cq:Widget"
+                                dName="isArray"
+                                fieldLabel="Render as array"
+                                width="25"
+                                xtype="checkbox"/>
+                            <isDynamic
+                                jcr:primaryType="cq:Widget"
+                                dName="isDynamic"
+                                fieldDescription="Check if value will be passed as a page property, request attribute or from JS scope"
+                                fieldLabel="Is dynamic value"
+                                width="25"
+                                xtype="checkbox"/>
+                        </items>
+                    </fieldConfig>
+                </udo>
+            </items>
+        </carousel>
+    </items>
+</jcr:root>

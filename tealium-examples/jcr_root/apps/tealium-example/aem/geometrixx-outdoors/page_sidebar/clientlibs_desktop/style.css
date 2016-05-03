@@ -1,0 +1,59 @@
+/*
+ ADOBE CONFIDENTIAL
+ __________________
+
+  Copyright 2012 Adobe Systems Incorporated
+  All Rights Reserved.
+
+ NOTICE:  All information contained herein is, and remains
+ the property of Adobe Systems Incorporated and its suppliers,
+ if any.  The intellectual and technical concepts contained
+ herein are proprietary to Adobe Systems Incorporated and its
+ suppliers and are protected by trade secret or copyright law.
+ Dissemination of this information or reproduction of this material
+ is strictly forbidden unless prior written permission is obtained
+ from Adobe Systems Incorporated.
+ */
+
+/* Layout */
+
+body.page-sidebar .page-par {
+    float: right;
+    width: 700px;
+}
+
+body.page-sidebar .page-aside {
+    float: left;
+    width: 200px;
+}
+
+/* Sidebar */
+
+body.page-sidebar .page-aside .title h1 {
+    margin: 0;
+    border-bottom: 3px solid #8c8c8c;
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+body.page-sidebar .page-aside .list ul.default {
+    margin: 0 0 24px 0;
+    padding: 0;
+    list-style-type: none;
+}
+body.page-sidebar .page-aside .list ul.default a {
+    display: block;
+    padding: 7px 0 6px;
+    border-bottom: 1px solid #d9d9d9;
+    text-decoration: none;
+    color: #5a5a5a;
+}
+body.page-sidebar .page-aside .list ul.default a:hover {
+    color: #007cba;
+}
+body.page-sidebar .page-aside .list ul.default a h4 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: normal;
+}

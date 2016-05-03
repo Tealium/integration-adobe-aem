@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/tealium-example/aem"/>
+    <filter root="/apps/tealium-example/content-component"/>
+    <filter root="/content/tealium-examples/aem"/>
+    <filter root="/content/tealium-plugin/configuration-page"/>
+</workspaceFilter>
