@@ -13,7 +13,7 @@ https://github.com/Tealium/integration-adobe-aem/blob/master/documentation/teali
 
 View example integration in the /tealium-examples directory
 
-https://github.com/tygavin/integration-adobe-aem/tree/master/tealium-examples
+https://github.com/Tealium/integration-adobe-aem/tree/master/tealium-examples
 
 
 ## License
