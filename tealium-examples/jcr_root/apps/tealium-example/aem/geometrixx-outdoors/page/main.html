@@ -1,0 +1,13 @@
+<div class="page-content">
+
+    <!-- Content for response from Tealium -->
+    <sightly data-sly-resource="${ @path='content-component', resourceType='/apps/tealium-example/content-component'}" data-sly-unwrap></sightly>
+
+    <sightly data-sly-resource="${ @path='par', resourceType='foundation/components/parsys'}" data-sly-unwrap></sightly>
+</div>
+<div class="page-footer">
+    <sightly data-sly-include="footer.jsp" data-sly-unwrap></sightly>
+</div>
+
+<!-- Tealium plugin component -->
+<sightly data-sly-resource="${ @path='tealium-plugin', resourceType='/apps/sightly-tealium-plugin/components/tealium-plugin'}" data-sly-unwrap></sightly>

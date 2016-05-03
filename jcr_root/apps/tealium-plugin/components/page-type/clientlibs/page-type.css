@@ -1,0 +1,39 @@
+.disabled {
+    color: #999
+}
+
+.tealium-page-type-container {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.tealium-page-type-container .configuration-entity {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.tealium-page-type-container .configuration-entity .entity-value {
+    font-weight: bold;
+}
+
+.tealium-page-type-container .configuration-entity ul {
+    margin: 0;
+    padding-left: 115px;
+    list-style: circle;
+}
+
+.tealium-page-type-container .left {
+    float: left;
+    height: 100%;
+    margin: 15px 50px 0px 50px;
+}
+
+.tealium-page-type-container .right {
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+.tealium-page-type-container .error {
+    color: red;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/etc/designs/tealium-plugin"/>
+    <filter root="/apps/tealium-plugin"/>
+    <filter root="/apps/sightly-tealium-plugin"/>
+    <filter root="/content/tealium-plugin"/>
+    <filter root="/content/dam/tealium-plugin"/>
+</workspaceFilter>

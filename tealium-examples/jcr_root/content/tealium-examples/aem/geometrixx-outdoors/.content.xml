@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/apps/geometrixx-outdoors/templates/.*,/libs/social/blog/templates/.*]"
+        cq:cloudserviceconfigs="[/etc/cloudservices/twitterconnect/geometrixx-outdoors-twitter-app,/etc/cloudservices/facebookconnect/geometrixx-outdoorsfacebookapp,/etc/cloudservices/msft-translation/msft_trial]"
+        cq:designPath="/etc/designs/geometrixx-outdoors"
+        cq:deviceIdentificationMode="client-side"
+        cq:lastModified="{Date}2014-04-22T10:11:24.002+01:00"
+        cq:lastModifiedBy="admin"
+        jcr:description="Geometrixx Outdoors - fashion that doesn't sacrifice style for comfort"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Geometrixx Outdoors Site"
+        jcr:uuid="f16723a1-415b-4e59-a401-00deea3ea2a8"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="foundation/components/redirect"
+        sling:vanityOrder="{Long}1000"
+        sling:vanityPath="[/geohome]"
+        redirectTarget="/content/geometrixx-outdoors/en">
+        <cq:siteVariant
+            cq:childNodesMapTo="hreflang"
+            cq:variantDomain=""
+            cq:variantFamily="geometrixx-outdoors"
+            jcr:primaryType="nt:unstructured"
+            data-bmap-devgroups="browser, oldBrowser, highResolutionDisplay"/>
+        <image
+            jcr:lastModified="{Date}2013-01-06T10:36:04.887-08:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            imageRotate="0"/>
+    </jcr:content>
+    <en/>
+</jcr:root>

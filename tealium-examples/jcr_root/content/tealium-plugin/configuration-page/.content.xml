@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2015-12-04T13:23:35.797+02:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Tealium Global Configuration Page"
+        sling:resourceType="/apps/tealium-plugin/pages/global-configuration">
+        <pageTypes
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <page_type
+                jcr:lastModified="{Date}2015-12-04T13:21:57.228+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tealium-plugin/components/page-type"
+                enableCustomUDO="true"
+                templatePath="/apps/tealium-example/aem/geometrixx-outdoors/page_product"
+                udo="[{&quot;udoName&quot;:&quot;currency&quot;\,&quot;udoValue&quot;:&quot;currency&quot;\,&quot;isArray&quot;:false\,&quot;isDynamic&quot;:true},{&quot;udoName&quot;:&quot;product_id&quot;\,&quot;udoValue&quot;:&quot;productId&quot;\,&quot;isArray&quot;:true\,&quot;isDynamic&quot;:true},{&quot;udoName&quot;:&quot;price&quot;\,&quot;udoValue&quot;:&quot;price&quot;\,&quot;isArray&quot;:false\,&quot;isDynamic&quot;:true}]"/>
+            <page_type_0
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="tealium-plugin/components/page-type"
+                enableCustomUDO="true"
+                templatePath="/apps/tealium-example/aem/geometrixx-outdoors/page_sidebar"
+                udo="\{&quot;udoName&quot;:&quot;product_category&quot;,&quot;udoValue&quot;:&quot;jcr:title&quot;,&quot;isArray&quot;:false,&quot;isDynamic&quot;:true}"/>
+        </pageTypes>
+        <globalConfiguration
+            jcr:lastModified="{Date}2015-12-04T13:23:35.794+02:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="tealium-plugin/components/global-configuration"
+            account="account.name"
+            enableCustomUDO="true"
+            enabled="true"
+            enableUtagSyncJs="true"
+            environment="dev"
+            profile="main"
+            udo="\{&quot;udoName&quot;:&quot;page_title&quot;,&quot;udoValue&quot;:&quot;jcr:title&quot;,&quot;isArray&quot;:false,&quot;isDynamic&quot;:true}"/>
+    </jcr:content>
+</jcr:root>

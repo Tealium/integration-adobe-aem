@@ -1,0 +1,13 @@
+<sightly data-sly-use.configuration="${ 'com.tealium.sling.models.GlobalConfigurationSlingModel' @ tealiumPageProperties=pageProperties}"
+    data-sly-test="${configuration.enabled}"
+    data-sly-unwrap>
+
+    <sightly data-sly-test="${configuration.enabledCustomUDO}" data-sly-unwrap>
+        <div data-tealium-utag-data='${configuration.utagData}' id="tealium-utag-data"></div>
+    </sightly>
+    <sightly data-sly-test="${configuration.enabledUtagSyncJs}" data-sly-unwrap>
+        <div data-tealium-link-to-utag-js='${configuration.linkToUtagJs}' id="tealium-link-to-utag-js"></div>
+    </sightly>
+    <sightly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+        data-sly-call="${clientLib.js @ categories='aem.tealium.plugin.js'}" data-sly-unwrap />
+</sightly>

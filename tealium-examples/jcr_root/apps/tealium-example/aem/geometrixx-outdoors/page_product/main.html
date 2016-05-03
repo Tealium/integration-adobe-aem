@@ -1,0 +1,21 @@
+<div class="page-content">
+
+    <div data-sly-use="${'/apps/sightly-tealium-plugin/components/tealium-plugin/setAttribute.js' @ currency='EUR'}" />
+
+    <!-- Content for response from Tealium -->
+    <sightly data-sly-resource="${ @path='content-component', resourceType='/apps/tealium-example/content-component'}" data-sly-unwrap></sightly>
+
+    <!-- Component with asynchronous request for price information -->
+    <sightly data-sly-resource="${ @path='price-caller', resourceType='/apps/tealium-example/aem/components/price-caller'}" data-sly-unwrap></sightly>
+
+    <sightly data-sly-resource="${ @path='par', resourceType='foundation/components/parsys'}" data-sly-unwrap></sightly>
+</div>
+<div class="page-footer">
+    <sightly data-sly-include="footer.jsp" data-sly-unwrap></sightly>
+</div>
+
+<!-- Tealium asynchronous JS plugin component -->
+<sightly data-sly-resource="${ @path='tealium-async-js-plugin', resourceType='/apps/sightly-tealium-plugin/components/tealium-async-js-plugin'}" data-sly-unwrap></sightly>
+
+<!-- Component which enabling TealiumAsyncJsManager processing -->
+<sightly data-sly-resource="${ @path='async-plugin-launcher', resourceType='/apps/tealium-example/aem/components/async-plugin-launcher'}" data-sly-unwrap></sightly>
