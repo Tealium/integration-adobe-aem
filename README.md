@@ -2,11 +2,29 @@
 
 This file is the README.md for the Tealium Integration with Adobe Experience Manager.
 
+
 ## Installation and Documentation
 
 Documentation can be found in the /documentation directory.
 
+For Adobe AEM versions previous to 6.2
+
 https://github.com/Tealium/integration-adobe-aem/blob/master/documentation/tealium-integration-adobe-aem.pdf
+
+For Adobe AEM 6.2 
+
+https://github.com/Tealium/integration-adobe-aem/blob/master/documentation/tealium-integration-adobe-aem-6-2.pdf
+
+
+# Releases
+
+For Adobe AEM versions previous to 6.2
+
+https://github.com/Tealium/integration-adobe-aem/releases/download/v1.0/tealium-aem-plugin-1.0.0.zip
+
+For Adobe AEM 6.2
+
+https://github.com/Tealium/integration-adobe-aem/releases/download/v1.1/tealium-aem-plugin-1.1.0.zip
 
 
 ## Examples
